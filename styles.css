@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(236, 236, 236);
+}
+.main-container{
+    width: 500px;
+    height: 500px;;
+    background-color: rgb(199, 199, 199);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 3px 8px; 
+}
+.my-icon{
+    width: 100px;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
+}
+.myDropdowwn{
+    display: flex;
+    font-size: 30px;
+    flex-flow: column;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 3px;
+}
+.myBtn{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 4px 0 4px 0;
+    border: none;
+    text-decoration: none;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
+
+}
+.myBtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(149, 255, 181);
+    border-radius: 10px;
+    color: black;
+    text-decoration: underline;
+}
